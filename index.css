@@ -1,0 +1,137 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Playfair Display', serif; 
+	/*400 600 700*/
+	/*background-color: red;*/
+	color: grey;
+	
+}
+
+.container{
+	background-image: url("./images/sky.jpeg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	position: relative;
+	z-index: -1;
+	width: 100%;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+
+}
+
+/*.img{
+	position: absolute;
+	z-index: 0;
+	
+}*/
+
+.img #one{
+	position: absolute;
+	z-index: 0;
+	top: 10%;
+    left: 63%;
+}
+
+.img #two{
+	position: absolute;
+	z-index: 0;
+	bottom: 10%;
+    left: 5%;
+}
+
+.img img{
+	width: 35%;
+}
+
+
+.text{
+	position: absolute;
+	z-index: 1;
+	margin: 0 300px;
+	/*top: 250px;
+	width: 100%;*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	
+}
+
+.present h3{
+	font-size: 25px;
+	padding-bottom: 15px;
+}
+
+.present p{
+	font-size: 15px;
+}
+
+.present i{
+	padding-right: 15px;
+}
+
+.h1{
+	line-height: 90px;
+	margin-bottom: 15px;
+}
+
+.h1 p{
+	font-weight: 400;
+	font-size: 100px;
+}
+
+.h1 h1{
+	font-weight: 700;
+	font-size: 90px;
+}
+
+.description{
+	font-weight: 400;
+	font-size: 25px;
+	margin-bottom: 15px;
+}
+
+.button button{
+	padding:  15px 30px;
+	border: 1px solid grey;
+	border-radius: 25px;
+	text-decoration: none;
+	background-color: transparent;
+	color: grey;
+}
+
+/*footer{
+	background-color: black;
+	display: flex;
+	justify-content: space-between;
+	margin-top: 25px;
+	margin: 0 15px;
+	
+}
+
+.networks{
+	color: white;
+}
+
+.networks i{
+	padding-right: 15px;
+}
+
+.terms i{
+	padding-left: 15px;
+}
+
+footer a{
+	text-decoration: none;
+	color: white;
+}*/
